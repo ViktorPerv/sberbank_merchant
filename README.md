@@ -38,7 +38,7 @@ sberbank:
 ### Пример использования
 
 ```$xslt
-    $payment = new Merchant($payment, $this->router->generate('success_payment',  [], UrlGeneratorInterface::ABSOLUTE_URL));
+    $marchant = new Merchant($payment, $this->router->generate('success_payment',  [], UrlGeneratorInterface::ABSOLUTE_URL));
     $result = $this->merchantService->registerOrder($merchant);
 
     if ($result->getErrorCode() == '0' && !is_null($result->getData()['formUrl'])) {
