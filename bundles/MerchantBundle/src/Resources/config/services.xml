@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        https://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="EMerchant\MerchantBundle\Services\AbstractBaseService"
+                 class="EMerchant\MerchantBundle\Services\AbstractBaseService"
+                 abstract="true">
+        </service>
+
+        <service id="EMerchant\MerchantBundle\Services\MerchantService"
+                 parent="EMerchant\MerchantBundle\Services\AbstractBaseService">
+        </service>
+
+    </services>
+
+</container>

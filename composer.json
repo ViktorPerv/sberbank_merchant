@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Danycom\\SmscruApiBundle\\": "bundles/SmscruApiBundle/src/",
+      "App\\Tests\\": "tests/",
+      "EMerchant\\MerchantBundle\\": "bundles/MerchantBundle/src/"
+    }
+  }
+}

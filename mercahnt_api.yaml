@@ -1,0 +1,7 @@
+# Файл конфигурации Merchant для Sberbank Api
+sberbank:
+  # Логин аккаунта
+  login: login
+  # Пароль аккаунта
+  password: 123
+  endpoint: https://3dsec.sberbank.ru
