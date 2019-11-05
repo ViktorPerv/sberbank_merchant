@@ -1,4 +1,7 @@
 {
+  "require": {
+    "moneyphp/money": "^3.2"
+  },
   "autoload": {
     "psr-4": {
       "App\\": "src/"
@@ -11,4 +14,4 @@
       "EMerchant\\MerchantBundle\\": "bundles/MerchantBundle/src/"
     }
   }
-}
+},
